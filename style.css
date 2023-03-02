@@ -224,9 +224,13 @@ body {
 
 @media(max-width: 768px){
 
+body{
+  width: 100vw;
+}
+
 .container{
   width: 100vw;
-  height: 130vh;
+  height: 135vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,13 +238,20 @@ body {
 }
 
 .result-section {
-  border-radius: 0px;
+  border-radius: 0px 0px 30px 30px;
   text-align: center;
 }
 
+.summary-section h1 {
+  margin-bottom: 20px;
+}
+
+#summary-el {
+  width: 320px;
+}
+
 .btn {
-  margin-top: 5px;
-  
+  margin: 15px 0px ;
 }
 
 }
